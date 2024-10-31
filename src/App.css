@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+/* Global CSS */
+
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root{
+    --primary: #5e3bee;
+    --heading-color: #282938;
+    --bg-shade: #f5fcff;
+    --github: #e62872;
+    --darkblue: #1c1e53;
+    --black: #000000;
+    --white: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Global CSS ends */
+/* Main headings */
+
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
 }
+
+/* Overview section */
+
+.overview--section--content{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    background-color: var(--bg-shade);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section--title{
+    color: var(--heading-color);
+    font-size: 21px;
+    text-align: left;
+}
+
+.section--image > img{
+    object-fit: contain;
+    width: 200px;
+}
+
+/* Overview section ends */
