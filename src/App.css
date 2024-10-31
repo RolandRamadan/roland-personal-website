@@ -49,7 +49,7 @@ h3 {
     padding-top: 10px;
     padding-right: 50px;
     padding-bottom: 10px;
-    background-color: var(--bg-shade);
+    background-color: var(--primary);
     align-items: center;
     justify-content: center;
     gap: 20px;
