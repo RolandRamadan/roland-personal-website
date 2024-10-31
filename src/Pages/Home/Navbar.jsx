@@ -1,11 +1,11 @@
 import {useState, useEffect} from "react"
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 export default function Navbar(){
     const [navActive, setNavActive] = useState(false);
 
-    const toggleNav = () => {
-        setNavActive(!navActive);
-    };
+    // const toggleNav = () => {
+    //     setNavActive(!navActive);
+    // };
 
     const closeMenu = () => {
         setNavActive(false);
