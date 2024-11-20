@@ -3,11 +3,12 @@ import React from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import HomeView from './Pages/Home/Homescreen';
 import Navbar from './Pages/Home/Navbar';
+import ComingSoonView from './Pages/ComingSoonPage/ComingSoonView';
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      {/* <Router>
         <div>
           <Navbar />
           <Routes>
@@ -16,8 +17,8 @@ function App() {
           </Routes>
         </div>
         
-      </Router>
-      <HomeView />
+      </Router> */}
+      <ComingSoonView />
     </div>
   );
 }
