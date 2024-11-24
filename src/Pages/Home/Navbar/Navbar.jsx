@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react"
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-// import { Link } from "react-router-dom"
 export default function Navbar() {
     const [navActive, setNavActive] = useState(false);
 
@@ -37,7 +36,7 @@ export default function Navbar() {
     return (
         <nav className={`navbar ${navActive ? "active" : ""}`}>
             <div>
-                <img src="./img/rolandLogo.svg" alt="Logoipsum" />
+                <img src="./img/personalLogo.svg" alt="Logoipsum" />
             </div>
             <a
                 className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -85,40 +84,15 @@ export default function Navbar() {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="AboutMe"
+                            to="mySkills"
                             className="navbar--content"
                         >
-                            About Me
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            onClick={closeMenu}
-                            activeClass="navbar--active-content"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={500}
-                            to="testimonial"
-                            className="navbar--content"
-                        >
-                            Testimonials
+                            Skills
                         </Link>
                     </li>
                 </ul>
             </div>
-            <Link
-                onClick={closeMenu}
-                activeClass="navbar--active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Contact"
-                className="btn btn-outline-primary"
-            >
-                Contact Me
-            </Link>
+
         </nav>
     );
 

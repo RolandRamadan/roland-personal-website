@@ -2,17 +2,73 @@
     "project": [
         {
             "id": 1,
-            "img": "test.img",
-            "title": "CatAdoption",
-            "subtitle": "This is description",
-            "link" : "github.com"
+            "img": "./img/Kpopzstation.svg",
+            "title": "KPopZStation",
+            "subtitle": "A website dedicated to facilitating the purchase of music albums, specializing in Korean music, including K-pop.",
+            "link" : "https://github.com/RolandRamadan/KpopZstation"
         },
         {
             "id": 2,
-            "img": "test.img",
-            "title": "CatAdoption",
-            "subtitle": "This is description",
-            "link" : "github.com"
+            "img": "./img/GoVege.svg",
+            "title": "GoVege",
+            "subtitle": "A website exclusively designed for ordering vegan and vegetarian meals, offering a wide variety of plant-based dishes.",
+            "link" : "https://github.com/RolandRamadan/GoVege_Proyek"
+        },
+        {
+            "id": 3,
+            "img": "./img/Allos.svg",
+            "title": "Allos",
+            "subtitle": "An Android-based application designed to scan barcodes on packaged food to check if the product contains allergens specific to the user's profile.",
+            "link" : "https://github.com/Jessen25/Allos"
+        },
+        {
+            "id": 4,
+            "img": "./img/Dog SOS.svg",
+            "title": "DogSOS",
+            "subtitle": "An iOS emergency application that connects users directly with the nearest veterinarian during pet emergencies.",
+            "link" : "https://github.com/sabaach/dogSOS"
+        },
+        {
+            "id": 5,
+            "img": "./img/Pirates Adventure.svg",
+            "title": "Pirates Adventure",
+            "subtitle": "An iPadOS-based puzzle game featuring unique gameplay mechanics.",
+            "link" : "https://github.com/anthonygfrn/TreasureHunt"
+        },
+        {
+            "id": 6,
+            "img": "./img/Caffeine Tracker.svg",
+            "title": "CaffeineTracker",
+            "subtitle": "A watchOS application designed to track caffeine consumption, seamlessly integrated with HealthKit.",
+            "link" : "https://github.com/RolandRamadan/Nano2/tree/main"
+        },
+        {
+            "id": 7,
+            "img": "./img/Cerdikiawan.svg",
+            "title": "Cerdikiawan",
+            "subtitle": "An iPadOS-based educational app designed for children, offering engaging and enjoyable learning experiences through gamification.",
+            "link" : "https://github.com/hcupiter/Cerdikiawan"
+        },
+        {
+            "id": 8,
+            "img": "./img/Wearther.svg",
+            "title": "Wearther",
+            "subtitle": "An iOS weather app that provides personalized clothing recommendations based on the current weather at your location and your destination.",
+            "link" : "https://github.com/bryan-vernanda/Wearther"
+        },
+        {
+            "id": 9,
+            "img": "./img/SilentEchoes.svg",
+            "title": "SilentEchoes",
+            "subtitle": "An iPadOS-based game that tells the story of a deaf individual facing bullying from their peers.",
+            "link" : "https://github.com/RolandRamadan/SilentEchoes"
+        },
+        {
+            "id": 10,
+            "img": "./img/DuaKomaLima.svg",
+            "title": "DuaKomaLima",
+            "subtitle": "An iOS-based zakat application designed to simplify the process of fulfilling zakat obligations.",
+            "link" : "https://github.com/MACRO-IGNIS/DuaKomaLima"
         }
     ]
 }

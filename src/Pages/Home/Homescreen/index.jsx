@@ -6,8 +6,8 @@ export default function HomeView(){
     return (
         <>
          <OverviewSection />
-         <MySkills />
          <MyProject />
+         <MySkills />
         </>
     )
 }
