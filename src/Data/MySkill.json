@@ -1,0 +1,59 @@
+{
+    "skill": [
+        {
+            "id": 1,
+            "img": "./img/swiftuiLogo.svg",
+            "title": "SwiftUI"
+        },
+        {
+            "id": 2,
+            "img": "./img/uikitLogo.svg",
+            "title": "UIKit"
+        },
+        {
+            "id": 3,
+            "img": "./img/github-mark.svg",
+            "title": "Version Control"
+        },
+        {
+            "id": 4,
+            "img": "./img/swiftdataLogo.svg",
+            "title": "Swift Data"
+        },
+        {
+            "id": 5,
+            "img": "./img/architectureLogo.svg",
+            "title": "MVVM Architecture"
+        },
+        {
+            "id": 6,
+            "img": "./img/codeLogo.svg",
+            "title": "Object Oriented Programming"
+        },
+        {
+            "id": 7,
+            "img": "./img/figmaLogo.svg",
+            "title": "Figma"
+        },
+        {
+            "id": 8,
+            "img": "./img/html5Logo.svg",
+            "title": "HTML"
+        },
+        {
+            "id": 9,
+            "img": "./img/cssLogo.svg",
+            "title": "CSS"
+        },
+        {
+            "id": 10,
+            "img": "./img/jsLogo.svg",
+            "title": "JavaScript"
+        },
+        {
+            "id": 11,
+            "img": "./img/sqlLogo.svg",
+            "title": "SQL"
+        }
+    ]
+}

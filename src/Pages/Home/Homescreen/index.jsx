@@ -1,9 +1,13 @@
-import OverviewSection from "../OverviewSection";
+import MyProject from "../MyProject/MyProject";
+import MySkills from "../MySkills/MySkills";
+import OverviewSection from "../OverviewSection/OverviewSection";
 
 export default function HomeView(){
     return (
         <>
          <OverviewSection />
+         <MySkills />
+         <MyProject />
         </>
     )
 }
